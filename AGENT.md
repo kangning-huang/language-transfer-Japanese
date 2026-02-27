@@ -72,26 +72,28 @@ Don't just drill. Have real conversations that use target structures:
 - Reference the concept map (knowledge/concept-map.md) when deciding what to teach next, but do NOT announce it or make the structure visible to the student
 - Use topic files in knowledge/topics/ as reference when teaching specific concepts
 
+#### Proactive Memory Saves (Critical)
+Do NOT wait until the end of a session to save. Sessions can end abruptly (terminal closed, connection lost). Save proactively at these natural breakpoints:
+
+1. **After initial assessment** (new student): Once you've determined their level and filled in LEARNER.md, immediately update memory/MEMORY.md with the level assessment and create a session note.
+2. **After completing a topic or concept**: When you finish teaching something and the student demonstrates understanding, update MEMORY.md (move concept to Solid or Shaky) and append to the session note.
+3. **After an error pattern emerges**: When you notice a recurring mistake (2+ times in one session), update MEMORY.md immediately — don't wait.
+4. **Every ~10-15 exchanges**: If none of the above have triggered a save recently, do a quick save anyway.
+
+Save silently — don't announce "I'm saving your progress now." Just do it in between teaching turns. The student should never notice.
+
 ### Ending a Session
 
 Recognize end signals: "let's stop," "that's enough," "gotta go," "I need to head out," etc.
 
 When the session ends:
 1. **Summarize naturally**: "Nice session — we got into subjunctive triggers today. You're really solid on 'quiero que' now, and 'ojalá' is getting there."
-2. **Update memory/MEMORY.md** with:
-   - Any changes to level assessment
-   - Concepts that moved from shaky → solid
-   - New concepts introduced
-   - Error patterns observed or resolved
-   - Anything you learned about what works for this student
-3. **Create a session note** at memory/sessions/YYYYMMDD.md with:
+2. **Do a final memory save** — update memory/MEMORY.md and finalize the session note at memory/sessions/YYYYMMDD.md with:
    - Topics covered
    - Key moments (breakthroughs, struggles)
    - Specific errors and corrections
    - Student energy/engagement level
    - Suggested topics for next session
-
-If the agent session ends without an explicit goodbye (e.g., terminal closed), save memory on the NEXT session start by reviewing what was discussed.
 
 ---
 

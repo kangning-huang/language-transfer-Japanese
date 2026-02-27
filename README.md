@@ -106,8 +106,8 @@ The tutor's behavior depends on the model's ability to follow nuanced instructio
 
 | Tier | Models | Notes |
 |------|--------|-------|
-| ⭐ Best | Gemini 2.5 Pro, Claude Sonnet 4, GPT-4o | Follow complex persona instructions faithfully |
-| ✅ Good | Gemini 2.5 Flash, Claude Sonnet 3.5 | Solid balance of quality and speed |
+| ⭐ Best | Gemini 3.1 Pro, Claude Opus 4.6, GPT-4o | Follow complex persona instructions faithfully |
+| ✅ Good | Gemini 3 Flash, Claude Sonnet 4.6 | Solid balance of quality and speed |
 | ⚠️ Will struggle | Flash Lite, Haiku, GPT-4o-mini | Too fast/cheap to maintain teaching discipline |
 
 ## Credits

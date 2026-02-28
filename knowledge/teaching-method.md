@@ -1,120 +1,121 @@
-# Teaching Method: The Language Transfer Approach
+# 教学方法：Language Transfer 方式（中文母语者学日语版）
 
-This document expands on the 6 teaching principles in AGENT.md with concrete examples and techniques from the Language Transfer transcript.
-
----
-
-## 1. Pattern Discovery
-
-**The rule**: Never state a grammar rule directly. Instead, present 2-3 examples and ask the student what they notice.
-
-**Technique — The Contrast Pair**:
-Present two forms side by side and ask what changed:
-- "How do you say 'normal'? Now 'metal'? What's different between the English and Spanish versions?"
-- "You said 'hablo' for 'I speak.' And 'habló' for 'he spoke.' What changed?"
-
-**Technique — The Derivation Chain**:
-Show how one form leads to another:
-- "If 'preparación' is preparation... and you take off '-tion' and add '-r'... what verb do you get?"
-- Student discovers the -ación → -ar pattern instead of being told it.
-
-**Technique — The Guided Guess**:
-Encourage prediction based on known patterns:
-- "You know 'verbal' is 'verbal'. So how do you think you'd say 'verb'?"
-- Accept wrong guesses warmly: "Good instinct. It's actually 'verbo' — you were close."
+本文档扩展了 AGENT.md 中的六大教学原则，提供具体的例子和技巧，专门针对中文母语者学日语的场景。
 
 ---
 
-## 2. Block-by-Block Building
+## 1. 规律发现
 
-**The rule**: Complex sentences are built piece by piece. Never present a full complex sentence and expect the student to produce it.
+**规则**：永不直接说语法规则。展示2-3个例子，问学生注意到了什么。
 
-**Technique — The Decomposition**:
-Break the target sentence into 3-5 chunks:
-- Target: "I want to know why you have to stay here"
-- "OK, first: I want — quiero. Good."
-- "Now: to know — saber. Put them together."
-- "Now forget that. Just: why — por qué."
-- "Now: you have to stay here — tienes que quedarte aquí."
-- "Now connect them all."
+**技巧 —— 对比对**：
+展示两种形式并排比较，问什么变了：
+- "'書く'变成'書いて'，'聞く'变成'聞いて'。く结尾的动词变て形时有什么规律？"
+- "'食べる'变成'食べて'，'見る'变成'見て'。一段动词变て形有什么简单？"
 
-**Technique — The Build-Up**:
-Start with the simplest version and add layers:
-- "How do you say 'I cook'? → 'I have cooked'? → 'I have cooked at 6'? → 'I have cooked at 6 for her'?"
+**技巧 —— 汉字推导链**：
+利用学生已知的中文汉字知识推导日语：
+- "你知道中文的'経済'吧？日语里写法几乎一样，只是用了繁体。读音是'けいざい'。那'経験'呢？"
+- 学生通过已知的中文知识发现日语词汇规律。
 
----
-
-## 3. Error as Compass
-
-**The rule**: Errors reveal thinking patterns. Use them to teach, not to correct.
-
-**Technique — The Redirect Question**:
-- Student says "culturial" → "Think about how it's written." (Student self-corrects to "cultural")
-- Student uses wrong tense → "What tense are we in right now?" or "Is this a background or a foreground action?"
-
-**Technique — The Process Check**:
-- "Good, but before you change any verb, do a quick check — what type of verb is it? -ar, -er, or -ir?"
-- Teaches metacognition, not just correct answers.
-
-**Technique — The Gentle Redirect**:
-- "It doesn't split here, but good for trying." (When student applies stem change where it doesn't apply)
-- Validates the attempt, corrects the result.
+**技巧 —— 引导猜测**：
+鼓励基于已知模式的预测：
+- "你知道'電話'是 denwa。那'電車'你猜怎么读？"
+- 错了也温和接受："好的直觉。'車'在这里读'しゃ'——でんしゃ。不过你猜的思路是对的。"
 
 ---
 
-## 4. Contextual Webs
+## 2. 逐块构建
 
-**The rule**: Every word is connected to other words. Show the connections.
+**规则**：复杂句子一块一块地构建。不要给出完整的复杂句子让学生翻译。
 
-**Technique — Etymology as Memory**:
-- "Confirmar — that's 'con' (with) + 'firma' (signature). When you confirm, you do it 'with signature.'"
-- "Todavía means 'still' — it's 'toda' (all) + 'vía' (way). 'All the way.' Still going."
+**技巧 —— 拆解**：
+把目标句子拆成3-5块：
+- 目标："我想知道你为什么非得留在这里"
+- "好，先来：'我想要'—— ～たい。'想知道'呢？知りたい。好。"
+- "现在：'你为什么'—— どうして / なぜ。"
+- "然后：'非得留在这里'—— ここにいなければならない。"
+- "现在把它们连起来。"
 
-**Technique — Cross-Language Hooks**:
-- "Ocho is eight — think octagon, eight sides. Or October, which was the eighth month."
-- "Nueve is nine — think November, the ninth month."
-
-**Technique — Semantic Networks**:
-- "'Soñar' means to dream. But notice: 'sueño' can mean 'I dream' OR 'dream' (noun) OR 'sleepiness.' Three meanings, one word."
-- "In Spanish you don't dream 'about' someone — you dream 'with' them. Sueño contigo. Isn't that beautiful?"
-
----
-
-## 5. Adaptive Pacing
-
-**The rule**: Match the student, not a schedule.
-
-**Signals to speed up**:
-- Instant correct answers
-- Student finishes your sentences
-- Student asks for harder material
-- Student makes connections you didn't prompt
-
-**Signals to slow down**:
-- Long pauses before answering
-- Same error type recurring
-- Student says "I've already forgotten..."
-- Answers get shorter or more hesitant
-
-**Response to "I forgot"**:
-Never say "it's [answer]." Instead:
-- "It's not about remembering — it's about knowing how to find it. What was that word related to?"
-- "You'll forget many times and that's fine. The skill is in digging it up. What does it sound like?"
+**技巧 —— 层层叠加**：
+从最简单的版本开始，逐层添加：
+- "'我吃'→'我吃了'→'我在餐厅吃了'→'我昨天在餐厅吃了寿司'"
 
 ---
 
-## 6. Conversational Practice
+## 3. 以错为师
 
-**The rule**: Real communication, not drills.
+**规则**：错误揭示思维模式。用它们来教学，而不只是纠正。
 
-**Technique — Contextual Prompts**:
-- "Tell me about your morning — but try to use reflexive verbs."
-- "Describe the last trip you took — use the preterite for what happened and the imperfect for descriptions."
+**技巧 —— 重定向提问**：
+- 学生说"たべるた"→"想想一段动词的变化——要去掉什么再加什么？"（学生自我纠正为"たべた"）
+- 学生助词用错 →"这里是在表示动作发生的地点还是方向？不同的情况用不同的助词。"
 
-**Technique — Opinion Elicitation**:
-- "¿Qué opinas sobre...?" then correct naturally in the flow of conversation.
-- The student doesn't feel "tested" — they feel heard.
+**技巧 —— 过程检查**：
+- "好的，在变形之前先想想——这是五段动词还是一段动词？"
+- 教的是元认知，不只是正确答案。
 
-**Technique — Comfortable Uncertainty**:
-- "You need to be comfortable with a level of uncertainty to learn a language. If you want the whole panorama before you start speaking, you will never start speaking."
-- Encourage speaking even with gaps. Fill gaps together.
+**技巧 —— 温和重定向**：
+- "这里不需要变音便，但尝试的思路是对的。"（当学生在不适用的地方应用了音便规则）
+- 肯定尝试，纠正结果。
+
+---
+
+## 4. 汉字桥梁与语境网络
+
+**规则**：每个词都与其他词相连。展示这些联系。对于中文母语者，最强大的联系就是汉字。
+
+**技巧 —— 汉字即记忆**：
+- "'図書館'——中文是图书馆。日语里意思完全一样，只是读音不同：としょかん。"
+- "'約束'——中文里是'约束'的意思，但日语里是'约定、承诺'。一个约定也是一种约束嘛，想想看是不是有道理？"
+- "'大丈夫'——中文里形容男子汉，日语里是'没关系、没问题'的意思。"
+
+**技巧 —— 音读规律**：
+- "注意'学'这个字，音读是'がく'。'学生'是がくせい，'学校'是がっこう，'大学'是だいがく。看到规律了吗？同一个汉字在不同词里音读往往是一样的。"
+- "中文里'生'可以读 shēng。日语的音读'せい'和'しょう'，是不是听起来有点像？这不是巧合——音读本来就是从古代中文借过来的。"
+
+**技巧 —— 中日假朋友（意思不同的汉字词）**：
+- "'手紙'在中文里是...？对，卫生纸。但日语里是'信'的意思。有趣的反差让人印象深刻吧？"
+- "'勉強'在中文里带有'勉强、不情愿'的意思，日语里却是'学习'。日本人觉得学习需要勉为其难地努力，有意思吧？"
+- 把这些差异变成有趣的文化窗口，而不是令人困惑的障碍。
+
+---
+
+## 5. 自适应节奏
+
+**规则**：跟随学生的节奏，不是跟随课程表。
+
+**加速信号**：
+- 秒答正确
+- 学生替你把话说完
+- 学生要求更难的内容
+- 学生做出你没引导的联想
+
+**减速信号**：
+- 回答前长时间停顿
+- 同类错误反复出现
+- 学生说"我已经忘了..."
+- 回答变短或更犹豫
+
+**对"我忘了"的回应**：
+永远不要说"答案是[xxx]"。而是：
+- "不是记忆的问题——是知道怎么找到它。那个词和什么有关？"
+- "忘很多次完全正常。技能在于能把它挖出来。它听起来像什么？"
+
+---
+
+## 6. 对话练习
+
+**规则**：真实交流，不是操练。
+
+**技巧 —— 语境提示**：
+- "跟我说说你今天早上做了什么——试试用て形把动作串起来。"
+- "描述一下你最喜欢的餐厅——说说那里的食物怎么样，用形容词。"
+
+**技巧 —— 引出观点**：
+- "你觉得～についてどう思いますか？"然后在对话流中自然纠正。
+- 学生不会觉得被"考试"——他们觉得被倾听。
+
+**技巧 —— 适应不确定**：
+- "学语言就是要习惯一定程度的不确定。如果你想搞清楚所有规则再开口，你永远不会开口。"
+- 鼓励即使有空白也要说话。一起填补空白。

@@ -1,25 +1,25 @@
-# Learner Memory
+# 学习记忆
 
-<!-- This file is maintained by the tutor. Updated during and after each session. -->
-<!-- Keep this under 80 lines. Consolidate older entries as needed. -->
+<!-- 由导师维护。在每次会话期间和之后更新。 -->
+<!-- 保持在80行以内。根据需要合并旧条目。 -->
 
-## Level
-Not yet assessed.
+## 水平
+尚未评估。
 
-## Concepts: Solid
-(none yet)
+## 概念：扎实
+（暂无）
 
-## Concepts: Shaky
-(none yet)
+## 概念：不稳
+（暂无）
 
-## Error Fingerprint
-(none yet — errors promoted here after 3+ occurrences)
+## 错误指纹
+（暂无 —— 出现3次以上的错误会被提升到这里）
 
-## What Works / Student Preferences
-(to be discovered — includes both observed patterns and explicit student feedback)
+## 有效方法 / 学生偏好
+（待发现 —— 包括观察到的模式和学生明确的反馈）
 
-## Interests
-(to be discovered — will be used for example sentences)
+## 兴趣
+（待发现 —— 将用于造例句）
 
-## Last Session
-No sessions yet.
+## 上次会话
+暂无会话记录。

@@ -1,49 +1,57 @@
-# Pronunciation
+# 日语发音
 
-## What This Is
-Spanish pronunciation rules — much simpler than English because Spanish is highly phonetic.
+## 这是什么
+日语的发音系统。对中文母语者来说，日语发音相对简单——元音少且稳定，没有声调（但有高低音型）。关键难点是长音/短音、促音、和高低音型。
 
-## Prerequisites
-None.
+## 前置条件
+hiragana-katakana（至少认识基本假名）
 
-## Teaching Approach
+## 教学方法
 
-Frame it positively: "Spanish is way more phonetic than English. Once you learn these rules, you can pronounce any word correctly just by reading it."
+### 元音：比中文简单
+日语只有5个元音：あ(a) い(i) う(u) え(e) お(o)
+- 每个元音只有一个读法，不像中文有声调变化
+- う(u)比中文的"u"嘴唇更放松，不圆唇
+- 引导发现："日语元音比中文少得多，而且没有声调。是不是比想象的简单？"
 
-### Vowels — The Foundation
-Each vowel has exactly ONE sound, always:
-- a = /ah/ (like "father")
-- e = /eh/ (like "elephant")
-- i = /ee/ (like "ink")
-- o = /oh/ (like "open")
-- u = /oo/ (like "moon")
+### 长音与短音（关键区分）
+日语中长音和短音区分词义：
+- おばさん(obasan) 阿姨 vs おばあさん(obaasan) 奶奶
+- おじさん(ojisan) 叔叔 vs おじいさん(ojiisan) 爷爷
+- ビル(biru) 建筑 vs ビール(biiru) 啤酒
 
-Practice: Have the student say cognate words and focus on pronouncing each vowel as written. "Natural" — not "natchural." "Generación" — every vowel is pure.
+教学方式：用拍子（モーラ）概念——每个假名是一拍，长音是两拍。让学生拍手数拍子。
 
-### Consonant Notes
-- **h**: completely silent. "Hospital" starts with /o/. "Ahora" = /a-o-ra/. Exception: ch = /ch/ as in English.
-- **ñ**: like n + y. "Mañana" = /man-ya-na/. Only unique Spanish letter.
-- **rr vs r**: single r = softer than English (but still with tongue). Double rr = rolled/trilled. "Pero" (but) vs "perro" (dog). Don't stress if you can't roll — it will come with practice.
-- **b/v**: both can sound like a soft b. "Voy" might sound like /boy/. Regional variation.
-- **s**: always /s/, never /z/. "Visible" = /vi-si-ble/, NOT /vi-zi-ble/.
-- **qu**: always /k/. "Quiero" = /ki-e-ro/. The u is silent.
-- **j**: /kh/ — throat friction. "General" = /khe-ne-ral/.
-- **z/ce/ci**: /s/ in Latin America, /th/ in Spain. Student's choice.
+### 促音（っ）
+小写的つ，表示后面辅音的停顿：
+- きて(kite) 来 vs きって(kitte) 邮票/切
+- がっこう(gakkō) 学校
 
-### Stress Rules
-- Words ending in vowel, n, or s: stress second-to-last syllable (ha-BLA-mos)
-- Words ending in other consonants: stress last syllable (ha-BLAR)
-- Written accent mark overrides: ha-BLÉ, pre-pa-ra-CIÓN
+教学方式："就像说话时突然停了一拍再继续。试试——がっこう。感觉中间有个小小的停顿吗？"
 
-### The Key Message
-"Pronounce the vowels as they're written, and you'll have a perfect accent. The rest is details."
+### 拨音（ん）
+日语唯一的辅音结尾音节：
+- 在不同辅音前发音略有不同（m/n/ng），但不需要刻意区分
+- 中文母语者对 n/ng 尾音很熟悉，这是优势
 
-## Common Pitfalls
-- English schwa creeping in (unstressed vowels becoming "uh")
-- Aspirating the silent h
-- s → z between vowels (English habit)
-- Stressing wrong syllable (especially with cognates — NORmal vs norMAL)
+### 高低音型（アクセント）
+日语不像中文有四声，但有高低音型：
+- はし — 筷子（高低）vs 桥（低高）vs 端（低高）
+- 不需要初学者过于纠结，在自然对话中逐步感知
 
-## Connection to Other Concepts
-- Reinforced constantly through cognate-patterns
-- Stress rules become critical for tense distinction (haBLO present vs haBLÓ past)
+### 与中文发音的关键区别
+- 日语没有声调（四声），用高低音型代替
+- 日语没有送气/不送气区分——か既不是"卡"也不是"嘎"，介于中间
+- 日语的"r"行（ら行）介于中文的"l"和"r"之间——弹舌音
+- 日语没有翘舌音（zh/ch/sh/r）
+
+## 常见陷阱
+- 用中文声调读日语——需要"忘掉"声调
+- 长音短音不分——这会改变词义
+- "ふ"不是中文的"fu"，嘴唇不接触，更像轻轻吹气
+- ら行发音——不是中文的"la"，舌头要轻弹上颚
+
+## 连接
+- 连接到 `hiragana-katakana.md`：发音和假名一一对应
+- 连接到 `kanji-bridge.md`：音读发音和古汉语的关系
+- 连接到 `kanji-readings.md`：深入音读发音规律

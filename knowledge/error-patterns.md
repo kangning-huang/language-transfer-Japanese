@@ -1,117 +1,108 @@
-# Common Error Patterns by Level
+# 常见错误模式（按水平）
 
-Recurring mistakes English speakers make when learning Spanish, organized by CEFR level. Each entry includes the error, why it happens, and how to address it using Language Transfer teaching methods.
-
----
-
-## A1 — Beginner Errors
-
-**English pronunciation leaking in**
-- Error: Pronouncing "s" as "z" (e.g., "visible" → "vi-zi-ble")
-- Why: English s between vowels often becomes z
-- Address: "Make sure that s stays crisp. S, not z. Visible."
-
-**Vowel inconsistency**
-- Error: Pronouncing Spanish vowels like English (e.g., "generación" → "genaración")
-- Why: English vowels shift depending on stress; Spanish vowels don't
-- Address: "Take it syllable by syllable. Each vowel is pronounced exactly as written."
-
-**Aspirating the silent h**
-- Error: "Hospital" with a slight h sound
-- Why: English h is always pronounced
-- Address: "Imagine the word starts with 'o'. No h exists. Ospital in your mind."
+中文母语者学日语时反复出现的错误，按 JLPT 水平组织。每个条目包括错误、原因和使用 Language Transfer 方法的应对策略。
 
 ---
 
-## A2 — Elementary Errors
+## N5 — 入门错误
 
-**Confusing verb types (-ar/-er/-ir)**
-- Error: Applying -ar endings to -er verbs or vice versa
-- Why: Not checking verb type before conjugating
-- Address: "Before you change any verb, quick check — what type is it? -ar, -er, or -ir?"
+**助词遗漏或混用**
+- 错误：省略助词或用错助词，如"私学校行く"而非"私は学校に行く"
+- 原因：中文没有助词系统，靠词序和语境表达语法关系
+- 应对："中文说'我去学校'，不需要额外的标记。日语里每个名词后面都要有一个小助词来说明它的角色。'学校'后面跟什么来表示'去的方向'？"
 
-**Object pronoun placement**
-- Error: "Quiero lo cancelar" instead of "quiero cancelarlo" or "lo quiero cancelar"
-- Why: English word order (want it cancel)
-- Address: "Pronouns either attach to the infinitive or go before the conjugated verb. Pick one."
+**语序不适应（SVO → SOV）**
+- 错误："私は行く学校"而非"私は学校に行く"
+- 原因：中文是 SVO（我去学校），日语是 SOV（我学校去）
+- 应对："日语里动词永远在最后。想想看——'我+学校+去'。试着重新排列一下？"
 
-**Over-translating prepositions**
-- Error: "Sueño sobre ella" (dream about her) instead of "sueño con ella" (dream with her)
-- Why: Direct translation of English prepositions
-- Address: "In Spanish you don't dream 'about' someone. You dream 'with' them. Sueño con ella."
+**长音短音不分**
+- 错误：把"おばさん"(阿姨)和"おばあさん"(奶奶)读一样
+- 原因：中文里音长不区分词义
+- 应对："日语里长音和短音是两个不同的词。おばさん是阿姨，多一拍おばあさん就变成奶奶了。听起来差别小，意思差别大。"
 
----
-
-## B1 — Intermediate Errors
-
-**Preterite/Imperfect confusion**
-- Error: Using preterite for background descriptions ("Fue un día bonito cuando llegué")
-- Why: English uses simple past for both functions
-- Address: "Think: is this action the backdrop or the event? The backdrop uses imperfect. 'Era un día bonito cuando llegué.'"
-
-**Ser/Estar mix-ups with adjectives**
-- Error: "Es cansado" (he is a tiring person) instead of "Está cansado" (he is tired)
-- Why: English has one "to be"
-- Address: "Ask yourself: is this about what something IS (ser) or how something FEELS right now (estar)?"
-
-**Forgetting stem changes**
-- Error: "Yo dormo" instead of "Yo duermo"
-- Why: Applying regular rules to stem-changing verbs
-- Address: "Some verbs split their vowel when you stress it. Dormir → duermo. Soñar → sueño."
+**把"的"直接翻译成"の"**
+- 错误：所有"的"都用"の"，如"きれいの花"而非"きれいな花"
+- 原因：中文"的"覆盖了日语の/な/い等多种连接方式
+- 应对："中文'美丽的花'用一个'的'搞定。日语里要看前面是什么类型的词。'きれい'是哪类形容词？な形容词接名词时用什么？"
 
 ---
 
-## B2 — Upper Intermediate Errors
+## N4 — 初级错误
 
-**Avoiding subjunctive**
-- Error: "Quiero que vienes" instead of "Quiero que vengas"
-- Why: Subjunctive doesn't exist in modern English; students default to indicative
-- Address: "After 'quiero que,' the action isn't real yet — you WANT it to happen. That 'unrealness' is exactly what subjunctive expresses."
+**て形音便错误**
+- 错误：把"書く"变成"書って"而非"書いて"
+- 原因：五段动词的音便规则复杂，く→いて/ぐ→いで/む→んで 等各不相同
+- 应对："く结尾的动词变て形时，く变成了什么？试试从'聞く→聞いて'推导。"
 
-**Conditional in si-clauses**
-- Error: "Si tendría..." instead of "Si tuviera..."
-- Why: English uses "would" in both halves; Spanish never uses conditional after "si"
-- Address: "In Spanish, 'si' NEVER gets conditional. The formula is: si + past subjunctive... conditional. Si tuviera... haría."
+**自他动词混淆**
+- 错误："ドアを開く"（该用"開ける"时），或"ドアが開ける"（该用"開く"时）
+- 原因：中文"开"一词多用，不区分自动词和他动词
+- 应对："想想——是'门自己开了'还是'某人把门打开了'？日语里这两种情况用不同的动词。"
 
-**Overusing "muy"**
-- Error: "Muy muy bueno" instead of richer intensifiers
-- Why: "Very" is the go-to English intensifier
-- Address: "Try 'bastante,' 'realmente,' 'increíblemente,' 'sumamente' — they give your Spanish more texture."
+**授受方向错误**
+- 错误：用あげる代替くれる，搞反给与的方向
+- 原因：中文"给"不区分视角方向
+- 应对："日语的'给'要看方向。别人给我/我方→用くれる；我/我方给别人→用あげる。现在这个句子里，谁给了谁？"
 
----
-
-## C1 — Advanced Errors
-
-**Register mismatch**
-- Error: Using "tú" with someone who expects "usted" (or vice versa in voseo regions)
-- Why: Register intuition comes from immersion, not study
-- Address: "When in doubt, start with usted. The other person will usually signal 'tutéame' if they prefer tú."
-
-**False friend traps**
-- Error: "Estoy embarazada" meaning "I'm embarrassed" (it means "I'm pregnant")
-- Why: Direct cognate assumption
-- Address: "Not every cognate translates directly. 'Embarrassed' is 'avergonzado/a.' 'Embarazada' is pregnant. Classic trap."
-
-**Subjunctive in relative clauses**
-- Error: "Busco a alguien que sabe" instead of "Busco a alguien que sepa"
-- Why: The indicative/subjunctive distinction in relative clauses is subtle
-- Address: "'Alguien que sabe' = I have a specific person in mind. 'Alguien que sepa' = I'm looking for ANY person with this quality. Which is it?"
+**条件形式乱用**
+- 错误：四种条件形式随意互换
+- 原因：中文只有"如果"一种条件表达
+- 应对："日语有四种说'如果'的方式，每种的语感不同。たら像'～了之后'，ば像'假如'，と像'一～就'。这个场景用哪个最合适？"
 
 ---
 
-## C2 — Near-Native Polish
+## N3 — 中级错误
 
-**Unnatural word order**
-- Error: Always using SVO order instead of fronting for emphasis
-- Why: English has fixed word order; Spanish is flexible
-- Address: "Spanish lets you move things around for emphasis. 'A mí me parece que...' hits differently than 'Me parece que...'"
+**被动态的迷惑用法不理解**
+- 错误：不理解"雨に降られた"（被雨淋了）这种间接被动
+- 原因：中文被动句不用于表达"遭受不幸"的间接影响
+- 应对："日语的被动有一种特殊用法——表示'被某事影响到了，而且不太开心'。'被雨淋'——你没有被直接做什么，但你被影响了。中文会说'被雨淋了'但不会说'被他回家了'，日语可以。"
 
-**Missing diminutive/augmentative nuance**
-- Error: Not using -ito/-ita, -ón/-ota for tone
-- Why: English doesn't have productive diminutive suffixes
-- Address: "There's a whole emotional layer in 'un momentito' vs 'un momento.' The diminutive softens, warms, pleads."
+**敬语等级混乱**
+- 错误：在同一句话里混用不同等级的敬语
+- 原因：中文的尊敬表达相对简单，不像日语有系统的三层敬语
+- 应对："想想你现在是对谁说话？是上级/客户→用最高等级的敬语。是普通的礼貌→ます就够了。先定好等级再开口。"
 
-**Overly literal idioms**
-- Error: Translating English idioms instead of using Spanish ones
-- Why: Idioms are the last frontier
-- Address: "Instead of 'llover gatos y perros,' try 'llover a cántaros.' Every language has its own images."
+**ようだ/らしい/みたい/そうだ 混用**
+- 错误：这几个推测/传闻表达互相混淆
+- 原因：中文里"好像""似乎""听说"的边界没有日语这么严格
+- 应对："你是亲眼看到了？还是听别人说的？还是从外表判断的？日语对信息来源很讲究。"
+
+---
+
+## N2 — 中高级错误
+
+**书面语口语混用**
+- 错误：口语中使用において/に際して等书面表达
+- 原因：中文的书面语和口语差距没有日语大
+- 应对："这个表达很适合写论文或正式报告。但和朋友聊天时会显得很奇怪。日常说话用什么更自然？"
+
+**は和が的微妙差异**
+- 错误：在该用が的地方用は，或反过来
+- 原因：中文没有主题标记和主语标记的区分
+- 应对："は标记的是'话题'——你在说什么。が标记的是'焦点'——是谁/什么做了这件事。'象は鼻が長い'——话题是大象，焦点是鼻子长。"
+
+**过度使用中文式表达**
+- 错误：直接把中文的表达方式翻译成日语，如"我的意见是..."→"私の意見は..."
+- 原因：母语思维的干扰
+- 应对："日语更喜欢间接表达。'私の意見は'有点太直接了。试试'～と思いますが'或'～ではないかと思います'？日本人说话喜欢留余地。"
+
+---
+
+## N1 — 高级打磨
+
+**语气控制不精准**
+- 错误：在需要委婉的场合太直接，或在需要明确的场合太模糊
+- 原因：中日文化在"直接性"上的差异
+- 应对："日语的礼貌不只是用敬语——是整个表达方式的软化。'できません'（做不到）vs'ちょっと難しいかもしれません'（可能有点难）——哪个更自然？"
+
+**四字熟语/成语的假朋友**
+- 错误：假设中日同形的四字熟语意思完全相同
+- 原因：很多四字熟语确实同源，但有些含义已经漂移
+- 应对："'一生懸命'看起来像中文的'一生悬命'？其实日语意思是'拼命努力'。源头是'一所懸命'——赌上自己的领地拼命。"
+
+**文体一致性**
+- 错误：在正式写作中混入口语表达，或反过来
+- 原因：对日语文体等级的感知还不够细腻
+- 应对："这篇文章的前半部分用的是'である'调，后半部分突然变成了'です/ます'。通篇应该统一。你觉得这个场合用哪种更合适？"

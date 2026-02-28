@@ -1,167 +1,186 @@
-# Language Transfer Spanish Tutor 🇪🇸
+# Language Transfer 日语导师 🇯🇵
 
-An AI-powered Spanish tutor that runs inside your terminal. Built on the [Language Transfer](https://www.languagetransfer.org/) "Thinking Method" — no app, no API, just markdown files that turn any LLM agent into a patient, adaptive Spanish teacher.
+一个在终端里运行的 AI 日语导师，专为中文母语者设计。基于 [Language Transfer](https://www.languagetransfer.org/) "思考方法"——没有 app，没有 API，只有 markdown 文件，让任何 LLM 代理变成一个耐心的、自适应的日语老师。
 
-> *"It's not about remembering — it's about knowing how to find it."*
+> *"不是记忆的问题——是知道怎么找到它。"*
 
-## What Is This?
+## 这是什么？
 
-A collection of carefully crafted markdown files that give an AI agent the personality, teaching methodology, knowledge base, and memory system to tutor you in Spanish from A1 (absolute beginner) to C2 (near-native).
+一套精心设计的 markdown 文件，赋予 AI 代理性格、教学方法论、知识库和记忆系统，让它辅导你学日语——从 N5（完全入门）到 N1（高级）。
 
-It works inside **Gemini CLI**, **Claude Code**, or any agent that reads workspace files.
+**专为中文母语者设计**：充分利用中日汉字的共通性，让你从第一天就意识到自己已经"认识"大量日语词汇。
 
-## How It Works
+它在 **Gemini CLI**、**Claude Code** 或任何能读取工作区文件的 AI 代理中运行。
 
-The tutor doesn't lecture. It guides you to **discover** Spanish through questions — just like the Language Transfer audio course:
+## 工作原理
+
+导师不讲课。它通过问题引导你**发现**日语——就像 Language Transfer 音频课程一样：
 
 ```
-Teacher: "Preparation" in Spanish is "preparación."
-         If you take off the "-tion" and add "-r"...
-         what verb do you get?
+老师："図書館"——你看这三个汉字，在中文里是什么意思？
 
-Student: Preparar?
+学生：图书馆？
 
-Teacher: Exactly. And "confirmation"?
+老师：没错！日语里意思完全一样，读"としょかん"。
+      那"図書"单独是什么意思？
 
-Student: Confirmación... so "to confirm" is... confirmar?
+学生：图书...就是书？
 
-Teacher: Now you'll never forget it.
+老师：对。你看，你已经认识很多日语了。
 ```
 
-Every concept is taught through **pattern discovery**, **block-by-block sentence building**, and **contextual etymology** — never through grammar tables or rote memorization.
+每个概念都通过**汉字桥梁**、**规律发现**、**逐块构建**和**语境联想**来教——永远不通过语法表格或死记硬背。
 
-## Quick Start
+## 快速开始
 
 ### Gemini CLI
 ```bash
-cd Language-Transfer/
+cd language-transfer-Japanese/
 gemini
-# Just say "let's start a lesson"
+# 直接说"我们开始吧"
 ```
 
 ### Claude Code
 ```bash
-cd Language-Transfer/
+cd language-transfer-Japanese/
 claude
-# Just say "let's start a lesson" — CLAUDE.md auto-loads the tutor
+# 直接说"我们开始吧"—— CLAUDE.md 会自动加载导师
 ```
 
-The tutor will:
-1. Assess your level through natural conversation (not a test)
-2. Start teaching at your edge — where you know things but start to struggle
-3. Remember everything across sessions via local markdown files
+导师会：
+1. 通过自然对话评估你的水平（不是测试）
+2. 从你的边缘水平开始教——你知道一些但开始挣扎的地方
+3. 通过本地 markdown 文件记住所有跨会话的内容
 
 ---
 
-## Architecture: Static vs Dynamic Files
+## 架构：静态 vs 动态文件
 
-The most important design distinction. The workspace has two categories:
+最重要的设计区分。工作区有两类文件：
 
-### Static Files — The Tutor's Brain (36 files, never change)
+### 静态文件 —— 导师的大脑（36个文件，不变）
 
-These define WHO the tutor is and WHAT it knows. Same for every student.
+定义导师是谁以及知道什么。对所有学生都一样。
 
-| File | Purpose |
-|------|---------|
-| `IDENTITY.md` | Name, version, purpose |
-| `SOUL.md` | Personality & philosophy |
-| `AGENT.md` | Teaching method, session flow, behavioral rules **(the heart)** |
-| `GEMINI.md` | Auto-config + non-negotiable rules for Gemini CLI |
-| `CLAUDE.md` | Auto-config + non-negotiable rules for Claude Code |
-| `knowledge/concept-map.md` | A1→C2 topic index with prerequisites |
-| `knowledge/teaching-method.md` | The 6 Language Transfer principles |
-| `knowledge/teaching-examples.md` | 10 few-shot examples from the transcript |
-| `knowledge/error-patterns.md` | Common mistakes by CEFR level |
-| `knowledge/topics/*.md` (27 files) | Individual topic teaching guides, loaded on demand |
+| 文件 | 用途 |
+|------|------|
+| `IDENTITY.md` | 名称、版本、目的 |
+| `SOUL.md` | 性格和教学哲学 |
+| `AGENT.md` | 教学方法、会话流程、行为规则 **（核心）** |
+| `GEMINI.md` | Gemini CLI 的自动配置 + 不可违反的规则 |
+| `CLAUDE.md` | Claude Code 的自动配置 + 不可违反的规则 |
+| `knowledge/concept-map.md` | N5→N1 主题索引和前置条件 |
+| `knowledge/teaching-method.md` | 六大 Language Transfer 原则 |
+| `knowledge/teaching-examples.md` | 10个教学示范对话 |
+| `knowledge/error-patterns.md` | 中文母语者按水平的常见错误 |
+| `knowledge/topics/*.md`（27个文件） | 单独的主题教学指南，按需加载 |
 
-### Dynamic Files — The Learner's Journey (evolve with each session)
+### 动态文件 —— 学生的旅程（随每次会话演变）
 
-These track the individual student's progress. Start empty, grow over time.
+追踪个别学生的进度。开始时为空，随时间增长。
 
-| File | Purpose | How It Changes |
-|------|---------|---------------|
-| `LEARNER.md` | Student profile: level, interests, goals | Filled in during first session, refined over time |
-| `memory/MEMORY.md` | Living progress tracker (~80 lines max) | Updated during and after every session |
-| `memory/sessions/YYYYMMDD.md` | Individual session logs | New file created each session |
-
-### How They Relate
-
-![Architecture: Static tutor brain reads and writes to dynamic learner state](assets/architecture.png)
-
-Clone the repo → get the full tutor brain but a blank learner profile. The tutor assesses you fresh and builds your unique learning path.
+| 文件 | 用途 | 如何变化 |
+|------|------|----------|
+| `LEARNER.md` | 学生档案：水平、兴趣、目标 | 第一次会话填写，之后持续完善 |
+| `memory/MEMORY.md` | 活的进度追踪器（约80行上限） | 每次会话期间和之后更新 |
+| `memory/sessions/YYYYMMDD.md` | 单次会话日志 | 每次会话创建新文件 |
 
 ---
 
-## The Teaching Method
+## 中文母语者的优势
 
-Built on the 6 Language Transfer principles:
+本导师专门为中文母语者设计，充分利用以下优势：
 
-| Principle | What It Means |
-|-----------|--------------|
-| **Pattern Discovery** | Never state rules — guide the student to notice patterns through examples |
-| **Block-by-Block Building** | Complex sentences are built piece by piece, not presented whole |
-| **Error as Compass** | Mistakes reveal thinking patterns — use them to teach, don't just correct |
-| **Contextual Webs** | Connect words through etymology and meaning ("confirmar" = "con" + "firma") |
-| **Adaptive Pacing** | Speed up when the student is nailing it, slow down when they're struggling |
-| **Conversational Practice** | Real conversations, not drills — use the student's interests |
+| 优势 | 说明 |
+|------|------|
+| **汉字桥梁** | 60%以上的日语汉字词与中文同形或近形——図書館、電話、経済 |
+| **音读联系** | 日语音读源自古汉语——山(shān→san)、生(shēng→sei) |
+| **量词概念** | 中日都使用量词系统——"一個"、"一本" |
+| **四字熟语** | 很多四字成语中日共享——一石二鳥、以心伝心 |
+| **书面表达** | 正式日语大量使用汉字词——中文母语者可以猜大意 |
 
-## Memory System
+## 教学方法
 
-The tutor remembers you across sessions:
+基于六大 Language Transfer 原则：
 
-- **MEMORY.md** — compact profile: your level, solid concepts, shaky areas, recurring error patterns, what teaching approaches work for you
-- **Session notes** — detailed logs of each lesson with specific errors, breakthroughs, and next-session suggestions
-- **Error fingerprinting** — if you make the same mistake 3+ times, it becomes a tracked pattern the tutor actively works on
-- **Student meta-feedback** — tell the tutor "too many hints" or "more conversation" and it adapts permanently
+| 原则 | 含义 |
+|------|------|
+| **规律发现** | 永不直接说规则——通过例子引导学生发现规律 |
+| **逐块构建** | 复杂句子拆成小块，一块一块地构建 |
+| **以错为师** | 错误揭示思维模式——利用它们来教学 |
+| **汉字桥梁** | 用学生已知的中文汉字搭建日语理解的桥梁 |
+| **自适应节奏** | 学生答得好就加速，挣扎了就放慢 |
+| **对话练习** | 真实对话，不是操练——用学生的兴趣来举例 |
 
-Memory saves happen **proactively during sessions**, not just at the end — so even if you close the terminal mid-lesson, your progress is preserved.
+## 记忆系统
 
----
+导师跨会话记住你：
 
-## Learnings: Building a Language Teaching Agent
+- **MEMORY.md** —— 紧凑的档案：你的水平、扎实的概念、不稳的领域、反复出现的错误模式、什么教学方式对你有效
+- **会话笔记** —— 每堂课的详细日志，包括具体错误、突破和下次建议
+- **错误指纹** —— 如果你犯同样的错误3次以上，它成为导师主动解决的追踪模式
+- **学生元反馈** —— 告诉导师"提示太多了"或"多做对话"，它会永久适应
 
-### 1. LLMs Give Away Answers Compulsively
-LLMs are trained to be helpful. A tutor must sometimes be *deliberately unhelpful*. We had to add explicit rules with BAD/GOOD examples showing what NOT to do.
-
-### 2. LLMs Stack Questions
-Instead of one question and waiting, the tutor asks 2-3 at once. Rule #1: "ONE question per message. Ask, then STOP."
-
-### 3. Rules at the Bottom Get Ignored
-Critical behavioral rules must go at the TOP of the first file the model reads. We moved them to `GEMINI.md` / `CLAUDE.md` as "NON-NEGOTIABLE RULES."
-
-### 4. Model Quality Matters Enormously
-Small models break character constantly. The tutor needs high instruction-following capability for Socratic restraint and patience.
-
-### 5. Sessions End Without Warning
-Users close terminals without saying goodbye. Memory must save incrementally during the session, not just at exit.
-
-### 6. LLMs Get Stuck in Topic Loops
-Once teaching subjunctive, it drills subjunctive forever. Topic rotation rule: switch after 5-6 exchanges, then circle back.
-
-### 7. The Student Should Teach the Teacher
-Students can give meta-feedback about teaching style. Methodology stays fixed; delivery adapts.
-
-### 8. LLMs Write Like Documents, Not People
-Markdown formatting in conversation feels robotic. Rule: "Write like a person talking, not a document."
-
-**The paradox**: The hardest part isn't telling the agent what to teach. It's telling it what NOT to do. The agent already knew Spanish grammar. What it didn't know was when to shut up.
+记忆保存在**会话期间主动发生**，不只是结束时——所以即使你中途关闭终端，进度也会保留。
 
 ---
 
-## Recommended Models
+## 课程结构（N5→N1）
 
-| Tier | Models | Notes |
-|------|--------|-------|
-| ⭐ Best | Gemini 3.1 Pro, Claude Opus 4.6, GPT-4o | Follow complex persona instructions faithfully |
-| ✅ Good | Gemini 3 Flash, Claude Sonnet 4.6 | Solid balance of quality and speed |
-| ⚠️ Will struggle | Flash Lite, Haiku, GPT-4o-mini | Too fast/cheap to maintain teaching discipline |
+| 级别 | 主题数 | 重点内容 |
+|------|--------|----------|
+| **N5 入门** | 10 | 汉字桥梁、假名、发音、です/ます、助词、形容词、动词分类、て形、数量词、基本表达 |
+| **N4 初级** | 5 | 动词变形系统、授受表达、条件形式、敬语入门、复合句 |
+| **N3 中级** | 5 | 被动态、使役态、音读训读、N3语法句型、尊敬谦让语 |
+| **N2 中高级** | 4 | 书面语、N2语法句型、语气助词、惯用表达 |
+| **N1 高级** | 3 | 古语残留、商务日语、地域方言 |
 
-## Credits
+---
 
-- Teaching methodology inspired by [Language Transfer](https://www.languagetransfer.org/) by Mihalis Eleftheriou — a brilliant, free language course that teaches through guided discovery rather than memorization
-- This project is an homage to [Mihalis's work](https://www.languagetransfer.org/about). If you enjoy this tutor, please support the original Language Transfer project
-- The original Language Transfer courses (Spanish, French, Italian, German, Greek, Arabic, Turkish, Swahili, Music) are all free at [languagetransfer.org](https://www.languagetransfer.org/)
+## 构建语言教学代理的经验
 
-## License
+### 1. LLM 强迫症般地给答案
+LLM 被训练为乐于助人。导师有时必须*故意不帮忙*。我们必须加入明确的规则和差/好示范来展示不该做什么。
+
+### 2. LLM 堆砌问题
+不是问一个问题然后等，而是一次问2-3个。规则一："每条消息只问一个问题。问完，停下。"
+
+### 3. 底部的规则被忽略
+关键行为规则必须放在模型读取的第一个文件的顶部。我们把它们移到 `GEMINI.md` / `CLAUDE.md` 作为"不可违反的规则"。
+
+### 4. 模型质量至关重要
+小模型频繁破坏角色。导师需要高指令遵循能力来维持苏格拉底式的克制和耐心。
+
+### 5. 会话无预警结束
+用户关闭终端不说再见。记忆必须在会话期间增量保存，而不只是退出时。
+
+### 6. LLM 陷入话题循环
+一旦教某个语法点，就无限钻下去。话题轮换规则：5-6轮后切换，然后再绕回来。
+
+### 7. 汉字是中文母语者的超能力
+原版 Language Transfer 为英语母语者利用拉丁语词根。我们的版本利用汉字——效果更强，因为中日汉字的重叠程度远超英西词根的重叠。
+
+### 8. LLM 写得像文档不像人
+对话中的 markdown 格式让人觉得机械。规则："像人说话一样写，不是写文档。"
+
+**悖论**：最难的不是告诉代理教什么。是告诉它什么时候闭嘴。
+
+---
+
+## 推荐模型
+
+| 级别 | 模型 | 说明 |
+|------|------|------|
+| ⭐ 最佳 | Gemini 3.1 Pro, Claude Opus 4.6, GPT-4o | 忠实遵循复杂人格指令 |
+| ✅ 良好 | Gemini 3 Flash, Claude Sonnet 4.6 | 质量和速度的平衡 |
+| ⚠️ 可能困难 | Flash Lite, Haiku, GPT-4o-mini | 太快太便宜，难以维持教学纪律 |
+
+## 致谢
+
+- 教学方法论灵感来自 [Language Transfer](https://www.languagetransfer.org/) by Mihalis Eleftheriou——一个出色的、免费的语言课程，通过引导发现而非记忆来教学
+- 本项目是对 [Mihalis 工作](https://www.languagetransfer.org/about)的致敬。如果你喜欢这个导师，请支持原版 Language Transfer 项目
+- 原版 Language Transfer 课程（西班牙语、法语、意大利语、德语、希腊语、阿拉伯语、土耳其语、斯瓦希里语、音乐）全部免费：[languagetransfer.org](https://www.languagetransfer.org/)
+
+## 许可证
 
 MIT

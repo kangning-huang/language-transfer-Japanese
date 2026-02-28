@@ -87,32 +87,10 @@ These track the individual student's progress. Start empty, grow over time.
 ### How They Relate
 
 ```mermaid
-graph TD
-    subgraph STATIC ["🧠 STATIC — The Tutor's Brain (never changes)"]
-        ID["IDENTITY.md"] --> SOUL["SOUL.md"] --> AGENT["AGENT.md"]
-        AGENT --> KN["knowledge/"]
-        KN --> CM["concept-map.md"]
-        KN --> TM["teaching-method.md"]
-        KN --> TE["teaching-examples.md"]
-        KN --> EP["error-patterns.md"]
-        KN --> TP["topics/ (27 files, A1→C2)"]
-    end
-
-    subgraph DYNAMIC ["📝 DYNAMIC — The Learner's Journey (evolves each session)"]
-        LR["LEARNER.md"]
-        MEM["memory/MEMORY.md"]
-        S1["sessions/2026-02-27.md"]
-        S2["sessions/2026-02-28.md"]
-        S3["sessions/..."]
-        MEM --> S1
-        MEM --> S2
-        MEM --> S3
-    end
-
-    AGENT -- "reads student state" --> MEM
-    AGENT -- "reads profile" --> LR
-    AGENT -- "writes progress" --> MEM
-    AGENT -- "creates logs" --> S1
+flowchart LR
+    A["🧠 Static Files\n36 files\nThe tutor's brain\nSame for every student"] -- reads --> B
+    A -- writes --> B
+    B["📝 Dynamic Files\nLEARNER.md + MEMORY.md + session logs\nThe student's journey\nUnique to each learner"]
 ```
 
 Clone the repo → get the full tutor brain but a blank learner profile. The tutor assesses you fresh and builds your unique learning path.

@@ -1,98 +1,98 @@
-# Concept Map
+# 概念地图
 
-A lightweight index of Spanish concepts organized by CEFR level. Each entry lists prerequisites and points to a topic file for detailed teaching guidance. The tutor reads this to decide what to teach next, cross-referencing with the learner's MEMORY.md.
+一个轻量级的日语概念索引，按 JLPT 水平组织。每个条目列出前置条件并指向详细教学指导的主题文件。导师读取此文件来决定下一步教什么，与学生的 MEMORY.md 交叉参考。
+
+注意：本课程专为中文母语者设计，充分利用汉字基础优势。
 
 ---
 
-## A1 — Absolute Beginner
+## N5 — 完全入门
 
-- **cognate-patterns**: prereqs=[] → `topics/cognate-patterns.md`
-  Cognate conversion rules: -al, -tion→-ción, -ant/-ent→-ante/-ente, -ible/-able, -ment→-mente
+- **kanji-bridge**: prereqs=[] → `topics/kanji-bridge.md`
+  汉字桥梁：中日汉字对比，同形同义词、同形异义词、日语简化字，利用中文汉字基础快速掌握大量日语词汇
 
-- **pronunciation**: prereqs=[] → `topics/pronunciation.md`
-  Vowel consistency (a/e/i/o/u), silent h, ñ, rr vs r, b/v, accent stress rules
+- **hiragana-katakana**: prereqs=[] → `topics/hiragana-katakana.md`
+  平假名和片假名：发音、书写、记忆技巧，片假名的外来语用途
 
-- **es-and-no**: prereqs=[] → `topics/es-and-no.md`
-  "Es" (is/he is/she is), "no es" (is not), basic sentence formation
+- **pronunciation**: prereqs=[hiragana-katakana] → `topics/pronunciation.md`
+  日语发音：元音(あいうえお)、长音短音、促音(っ)、拨音(ん)、声调(高低音型)、与中文发音的区别
 
-- **quiero-basics**: prereqs=[es-and-no] → `topics/quiero-basics.md`
-  "Quiero" (I want), quiero + infinitive, "no quiero", verb derivation from -ación nouns
+- **desu-masu**: prereqs=[hiragana-katakana] → `topics/desu-masu.md`
+  です/ます基本句型：～は～です、～ます/～ません/～ました、肯定否定过去
 
-- **present-regular**: prereqs=[quiero-basics] → `topics/present-regular.md`
-  -ar/-er/-ir verb conjugation in present tense, yo/tú/él/nosotros/ellos forms
+- **particles-basic**: prereqs=[desu-masu] → `topics/particles-basic.md`
+  基础助词：は(主题)、が(主语)、を(宾语)、に(目标/时间)、で(场所/手段)、の(所属)、へ(方向)
 
-## A2 — Elementary
+- **adjectives**: prereqs=[desu-masu] → `topics/adjectives.md`
+  形容词：い形容词和な形容词、变形(否定/过去/连用)、做定语和谓语的用法
 
-- **present-irregular**: prereqs=[present-regular] → `topics/present-irregular.md`
-  Stem-changing verbs (o→ue, e→ie, e→i), common irregulars (ir, ser, estar, tener, hacer)
+- **verb-groups**: prereqs=[desu-masu] → `topics/verb-groups.md`
+  动词分类：五段动词(u-verbs)、一段动词(ru-verbs)、不规则动词(する/くる)、辞书形与ます形的关系
 
-- **pronouns-object**: prereqs=[present-regular] → `topics/pronouns-object.md`
-  me/te/lo/la/nos/los/las, placement rules, combining with infinitives
+- **te-form**: prereqs=[verb-groups] → `topics/te-form.md`
+  て形：五段动词的音便变化(い音便/っ音便/ん音便)、一段动词和不规则动词、て形的连用/请求/进行态用法
 
-- **gustar-pattern**: prereqs=[pronouns-object] → `topics/gustar-pattern.md`
-  "Me gusta/n", inverted subject, other verbs like gustar (interesar, importar, encantar)
+- **counters-time**: prereqs=[hiragana-katakana] → `topics/counters-time.md`
+  数量词和时间：数字、常用量词(つ/人/個/枚/本/匹/杯)、时间表达(～時～分)、日期星期
 
-- **prepositions**: prereqs=[present-regular] → `topics/prepositions.md`
-  a, de, en, con, para, por (basic), conmigo/contigo, verb + preposition differences from English
+- **basic-expressions**: prereqs=[] → `topics/basic-expressions.md`
+  基本表达：打招呼(おはよう/こんにちは/こんばんは)、感谢道歉、自我介绍、购物餐厅常用语
 
-- **reflexives**: prereqs=[pronouns-object] → `topics/reflexives.md`
-  Reflexive verbs (quedarse, prepararse, irse), pronoun placement, daily routine verbs
+## N4 — 初级
 
-## B1 — Intermediate
+- **verb-forms**: prereqs=[verb-groups, te-form] → `topics/verb-forms.md`
+  动词变形系统：ない形(否定)、た形(过去)、可能形、意志形(よう/おう)、命令形与禁止形
 
-- **past-preterite**: prereqs=[present-regular] → `topics/past-preterite.md`
-  Point-in-time past: -ar verbs (-é/-ó/-amos/-aron), -er/-ir verbs (-í/-ió/-imos/-ieron)
+- **giving-receiving**: prereqs=[verb-forms] → `topics/giving-receiving.md`
+  授受表达：あげる/もらう/くれる、てあげる/てもらう/てくれる、视角与恩惠关系
 
-- **past-imperfect**: prereqs=[present-regular] → `topics/past-imperfect.md`
-  Background/habitual past: -ar (-aba), -er/-ir (-ía), only 3 irregulars (ir, ser, ver)
+- **conditional**: prereqs=[verb-forms] → `topics/conditional.md`
+  条件表达：たら(如果...了)、ば(假如)、と(一...就)、なら(要说...的话)、四种条件形式的区别与选择
 
-- **preterite-vs-imperfect**: prereqs=[past-preterite, past-imperfect] → `topics/preterite-vs-imperfect.md`
-  Foreground vs background, interruption pattern, habitual vs one-time, narrative perspective
+- **keigo-intro**: prereqs=[verb-forms] → `topics/keigo-intro.md`
+  敬语入门：丁寧語(です/ます)复习、基本尊敬语(お/ご～)、基本谦让语(いたします)、敬语的社会功能
 
-- **present-perfect**: prereqs=[past-preterite] → `topics/present-perfect.md`
-  Haber + past participle, "he hablado", when to use vs preterite, regional differences
+- **compound-sentences**: prereqs=[te-form] → `topics/compound-sentences.md`
+  复合句：原因(から/ので)、转折(けど/のに)、并列(し/たり)、目的(ために/ように)
 
-- **ser-vs-estar**: prereqs=[present-irregular] → `topics/ser-vs-estar.md`
-  Identity vs state, adjectives that change meaning, "es aburrido" vs "está aburrido"
+## N3 — 中级
 
-- **por-vs-para**: prereqs=[prepositions] → `topics/por-vs-para.md`
-  Purpose vs cause, duration vs deadline, exchange, "por" in passive, common expressions
+- **passive**: prereqs=[verb-forms] → `topics/passive.md`
+  被动态：直接被动、间接被动(迷惑被动)、非生物主语被动、被动态在正式文中的使用
 
-## B2 — Upper Intermediate
+- **causative**: prereqs=[verb-forms] → `topics/causative.md`
+  使役态：使役形的构成、让/叫/使、使役被动(させられる)、与中文"让"的对比
 
-- **future-conditional**: prereqs=[present-regular] → `topics/future-conditional.md`
-  Future tense (infinitive + haber endings), conditional (-ía), irregular stems, will vs would
+- **kanji-readings**: prereqs=[kanji-bridge] → `topics/kanji-readings.md`
+  音读训读规律：音读与古汉语的关系、常见音读规律、训读的和语特征、熟字训、重箱读与湯桶読
 
-- **subjunctive-present**: prereqs=[present-regular] → `topics/subjunctive-present.md`
-  Formation (swap vowels: -ar→-e, -er/-ir→-a), concept of "unrealized" actions
+- **grammar-patterns-n3**: prereqs=[compound-sentences] → `topics/grammar-patterns-n3.md`
+  N3语法句型：ようにする/ようになる、ことにする/ことになる、はずだ/わけだ、ようだ/らしい/みたい
 
-- **subjunctive-triggers**: prereqs=[subjunctive-present] → `topics/subjunctive-triggers.md`
-  Quiero que, espero que, es posible que, ojalá, para que, cuando (future), sin que, antes de que
+- **honorific-humble**: prereqs=[keigo-intro] → `topics/honorific-humble.md`
+  尊敬语与谦让语体系：お/ご＋动词、特殊敬语动词(いらっしゃる/おっしゃる等)、谦让动词(参る/申す等)、使用场景
 
-- **compound-tenses**: prereqs=[present-perfect, past-imperfect] → `topics/compound-tenses.md`
-  Pluperfect (había + pp), future perfect (habré + pp), conditional perfect (habría + pp)
+## N2 — 中高级
 
-- **relative-clauses**: prereqs=[subjunctive-present] → `topics/relative-clauses.md`
-  Que, quien, donde, lo que, el/la que, cuyo; indicative vs subjunctive in relative clauses
+- **formal-expressions**: prereqs=[grammar-patterns-n3] → `topics/formal-expressions.md`
+  书面语表达：である体、に際して/にあたって、において/における、に基づいて、を通じて
 
-## C1 — Advanced
+- **grammar-patterns-n2**: prereqs=[grammar-patterns-n3] → `topics/grammar-patterns-n2.md`
+  N2语法句型：にもかかわらず、に反して、を問わず、に伴って、次第、かねる/かねない
 
-- **subjunctive-imperfect**: prereqs=[subjunctive-present, past-imperfect] → `topics/subjunctive-imperfect.md`
-  -ra and -se forms, si clauses ("si tuviera..."), wishes about the past, como si
+- **nuance-particles**: prereqs=[particles-basic] → `topics/nuance-particles.md`
+  语气助词：ね/よ/さ/ぞ/ぜ/な/わ/かな 的微妙差异、男女用语差别、地域差异
 
-- **conditional-subjunctive**: prereqs=[subjunctive-imperfect, future-conditional] → `topics/conditional-subjunctive.md`
-  "Si tuviera... haría", "Si hubiera tenido... habría hecho", hypothetical chains
+- **idiomatic-expressions**: prereqs=[kanji-readings] → `topics/idiomatic-expressions.md`
+  惯用表达：体の部分を使った慣用句(目/手/足/口/頭)、四字熟语与中文成语的对比
 
-- **advanced-connectors**: prereqs=[subjunctive-triggers] → `topics/advanced-connectors.md`
-  Sin embargo, no obstante, a pesar de que, dado que, siempre y cuando, en caso de que
+## N1 — 高级
 
-- **register-formality**: prereqs=[subjunctive-present] → `topics/register-formality.md`
-  Tú vs usted vs vos, formal writing, literary vs conversational, softening requests
+- **classical-remnants**: prereqs=[formal-expressions] → `topics/classical-remnants.md`
+  古语残留：べし/まい/ごとし、文语助词在现代日语中的残留、公文和法律用语
 
-## C2 — Near-Native
+- **business-japanese**: prereqs=[honorific-humble] → `topics/business-japanese.md`
+  商务日语：メール/電話/会議の表現、クッション言葉、社内外の使い分け
 
-- **stylistic-nuance**: prereqs=[conditional-subjunctive, advanced-connectors] → `topics/stylistic-nuance.md`
-  Word order for emphasis, lo + adjective constructions, diminutives/augmentatives for tone
-
-- **regional-variation**: prereqs=[register-formality] → `topics/regional-variation.md`
-  Voseo, leísmo/laísmo, vocabulary differences (Spain vs Mexico vs Argentina vs Colombia)
+- **regional-dialects**: prereqs=[grammar-patterns-n2] → `topics/regional-dialects.md`
+  方言与地域差异：関西弁/博多弁/東北弁等的基本特征、标准语与方言的关系、流行文化中的方言

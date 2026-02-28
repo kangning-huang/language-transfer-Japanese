@@ -1,146 +1,142 @@
-# Teaching Examples
+# 教学示例
 
-Few-shot examples extracted from the Language Transfer transcript. These demonstrate the teaching STYLE — how to guide discovery, build sentences, and handle errors. The tutor should generate its own original dialogue following these patterns.
-
----
-
-## Example 1: Pattern Discovery (Cognate Rule)
-
-> **Teacher**: So words ending in -al tend to come from Latin, and we can make them Spanish. For example, "normal" in Spanish is... normal. What do you notice?  
-> **Student**: The accent is different.  
-> **Teacher**: Exactly! Where's it stressed in English?  
-> **Student**: On the O. NORmal.  
-> **Teacher**: And in Spanish?  
-> **Student**: NorMAL.  
-> **Teacher**: So if the same happens with other words, how would you say "metal"?  
-> **Student**: Metal.  
-> **Teacher**: Metal. Perfect.
-
-**What this demonstrates**: Never state the rule. Ask a question → student notices the pattern → apply it.
+面向中文母语者的日语教学示范。这些例子展示了教学风格——如何引导发现、构建句子和处理错误。导师应参照这些模式生成自己的原创对话。
 
 ---
 
-## Example 2: Verb Derivation Chain
+## 示例 1：汉字桥梁——发现你已经会的日语
 
-> **Teacher**: What was "preparation"?  
-> **Student**: Preparación.  
-> **Teacher**: Good. Now, if you take off the "-tion" and put an "-r" on the end, you get the verb. What's "to prepare"?  
-> **Student**: Preparar.  
-> **Teacher**: So what about "confirmation"?  
-> **Student**: Confirmación.  
-> **Teacher**: And "to confirm"?  
-> **Student**: Confirmar.  
-> **Teacher**: Now, if "to confirm" means "with signing"... "con" is "with" and "firma" is signature... how do you think you'd say "to sign"?  
-> **Student**: Oh, firmar!  
-> **Teacher**: Yes!
+> **老师**：你知道吗，日语里有很多汉字词和中文几乎完全一样。比如"図書館"，你觉得是什么意思？
+> **学生**：图书馆？
+> **老师**：对！就是图书馆。再看一个——"電話"？
+> **学生**：电话。
+> **老师**：没错。那"空気"呢？
+> **学生**：空气！
+> **老师**：你看，你已经认识很多日语词了。现在关键是学会怎么读它们。"図書館"日语读"としょかん"——试试看？
 
-**What this demonstrates**: Derivation chain → etymology → student *discovers* a word they were never taught.
+**示范要点**：从学生已知的知识出发，建立自信。让他们发现自己的汉字基础是学日语的巨大优势。
 
 ---
 
-## Example 3: Block-by-Block Sentence Building
+## 示例 2：音读推导链
 
-> **Teacher**: I want to know why you have to stay here. Let's not panic. First bit: "I want."  
-> **Student**: Quiero.  
-> **Teacher**: Good. "To know":  
-> **Student**: Saber.  
-> **Teacher**: Good. Now forget that. "Why":  
-> **Student**: Por qué.  
-> **Teacher**: "You have to stay here":  
-> **Student**: Tienes que quedarte aquí.  
-> **Teacher**: Now put it all together:  
-> **Student**: Quiero saber por qué tienes que quedarte aquí.  
-> **Teacher**: Perfect.
+> **老师**：日语里"学"的音读是"がく"。"学生"怎么读？
+> **学生**：がくせい？
+> **老师**：对。那"学校"呢？
+> **学生**：がくこう？
+> **老师**：差一点——是"がっこう"。"く"在这里变成了促音。但你的思路完全正确——同一个汉字在不同词里音读是一致的。那"大学"呢？
+> **学生**：だいがく！
+> **老师**：完美。你注意到了——只要知道"学"读"がく"，一串词都能推出来。
 
-**What this demonstrates**: Break complex sentences into blocks. "Don't think about the whole sentence."
+**示范要点**：利用音读的一致性，让学生从一个字推导出一系列词汇。
 
 ---
 
-## Example 4: Gentle Error Correction
+## 示例 3：逐块构建句子
 
-> **Teacher**: How would you say "cultural"?  
-> **Student**: Culturial?  
-> **Teacher**: Think about how it's written.  
-> **Student**: Cultural?  
-> **Teacher**: Yes. Perfect Spanish accent there.
+> **老师**：我们来造个句子——"我想在东京的餐厅吃寿司"。别紧张，一块一块来。"我想吃"怎么说？
+> **学生**：食べたい。
+> **老师**：好。"寿司を食べたい"——加上宾语。"在餐厅"呢？
+> **学生**：レストランで？
+> **老师**：对。"在东京的餐厅"呢？
+> **学生**：東京のレストランで。
+> **老师**：现在全部连起来。
+> **学生**：東京のレストランで寿司を食べたい。
+> **老师**：看，你刚才说了一个很长的日语句子。
 
-**What this demonstrates**: Don't say "wrong." Redirect to the right thinking process. Let them self-correct.
-
----
-
-## Example 5: Handling "I Forgot"
-
-> **Student**: I've already forgotten what "trying" is.  
-> **Teacher**: So it's not about remembering, it's about knowing how to find it. What was that word related to?  
-> **Student**: Intención.  
-> **Teacher**: And the verb form ends in -o like "quiero"...  
-> **Student**: Ah, intento!  
-> **Teacher**: There you go. The skill is in digging it up, not in having it memorized.
-
-**What this demonstrates**: Never just give the answer. Teach the retrieval process.
+**示范要点**：拆成小块。"不要想整个句子。" 每一块学生都能独立完成。
 
 ---
 
-## Example 6: Process Correction (Not Just Answer Correction)
+## 示例 4：温和的错误纠正
 
-> **Teacher**: They come together. Say that.  
-> **Student**: Venir is irregular, right?  
-> **Teacher**: Try and build it, see what happens.  
-> **Student**: It's not "vieno"... no, it's vengo.  
-> **Teacher**: But you're going for the "they" version. Don't go from venir → I → they. Go from venir → they directly.  
-> **Student**: So, is it vienen?  
-> **Teacher**: Of course! You see?  
-> **Student**: Yeah. The "I" one though! My mind is trying to remember.  
-> **Teacher**: Vengo. But it's not important right now. You need to be comfortable with uncertainty. Focus on what's in front of you.
+> **老师**：试试说"那本书很有趣"。
+> **学生**：その本はおもしろいでした。
+> **老师**：差一点。い形容词的过去式——你觉得是直接加"でした"，还是い本身要变一下？
+> **学生**：哦...おもしろかった？
+> **老师**：对了。い形容词自己变过去式，不需要です帮忙。你自己想通了，这比我告诉你更有价值。
 
-**What this demonstrates**: Correct the *process*, not just the answer. Keep focus narrow. Teach comfort with uncertainty.
+**示范要点**：不说"错了"。提出引导性问题。让学生自我纠正。
 
 ---
 
-## Example 7: Preposition Difference as Cultural Window
+## 示例 5：处理"我忘了"
 
-> **Teacher**: In Spanish you don't dream "about" someone. You dream "with" them. Maybe when people first talked about dreams, they felt the other person was actually participating. "Sueño contigo."  
-> **Student**: Sueño contigo.  
-> **Teacher**: Beautiful, isn't it? The preposition changes how you perceive the experience.
+> **学生**：我忘了"学校"怎么读了。
+> **老师**：没关系。我们刚才说过"学"的音读是什么？
+> **学生**：がく。
+> **老师**：对。那"校"的音读呢？想想"校长"...
+> **学生**：こう？所以是...がくこう？
+> **老师**：差不多——"く"遇到"こ"的时候会变成促音——がっこう。记住这个小规则。关键不是死记硬背，是知道怎么推导。
 
-**What this demonstrates**: Use language differences as windows into culture. Makes grammar memorable through meaning.
-
----
-
-## Example 8: Vocabulary Through Experimentation
-
-> **Teacher**: How do you think you'd say "verb" in Spanish? We know "verbal" is "verbal"...  
-> **Student**: Verbo?  
-> **Teacher**: Yeah! With vocabulary, we can happily guess and try. If you'd said "verba," someone would look at you funny and say "ah, verbo" — and now you've learned. That's the fastest way.
-
-**What this demonstrates**: Encourage guessing. Distinguish between structure (be careful) and vocabulary (experiment freely).
+**示范要点**：永远不要直接给答案。教会检索过程。
 
 ---
 
-## Example 9: Future Tense Through Connection
+## 示例 6：过程纠正（不只是答案纠正）
 
-> **Teacher**: The future tense uses the same sounds as "haber." What's "I have" from haber?  
-> **Student**: He.  
-> **Teacher**: Just stick that sound on the end of the verb. "I will dance":  
-> **Student**: Bailaré?  
-> **Teacher**: The accent pushes into the future — literally. We push the stress forward. Isn't that interesting?
+> **老师**：试试说"他们来了"。
+> **学生**：来る的过去式...来った？
+> **老师**：想法对了——要变过去式。但"来る"是哪类动词？
+> **学生**：不规则动词。
+> **老师**：对。不规则动词不能按普通规则变。"来る"的过去式是特殊的——た形是"来た"，读作"きた"。
+> **学生**：きた...那"他们来了"就是"彼らがきた"？
+> **老师**：对。不规则动词就这两个——する和くる。其他的都有规律可循。
 
-**What this demonstrates**: Connect new grammar to what's already known (haber). Add linguistic insight to make it memorable.
+**示范要点**：纠正思维过程，不只是答案。先确认动词类型再做变形。
 
 ---
 
-## Example 10: The Comfortable Guess
+## 示例 7：中日汉字差异作为文化窗口
 
-> **Teacher**: How would you say "I can't stay tonight"?  
-> **Student**: *(long pause)*  
-> **Teacher**: Don't panic. What's the first bit? "I can't."  
-> **Student**: No puedo.  
-> **Teacher**: "To stay" — remember it's "to remain myself."  
-> **Student**: Quedarme.  
-> **Teacher**: "Tonight"?  
-> **Student**: Esta noche.  
-> **Teacher**: Now connect them.  
-> **Student**: No puedo quedarme esta noche.  
-> **Teacher**: See? You knew more than you thought.
+> **老师**：日语里"手紙"是什么意思，你猜？
+> **学生**：手纸...卫生纸？
+> **老师**：在中文里确实是。但日语里"手紙"是"信"的意思。想想看——"手写的纸"，在古代就是书信嘛。中文后来把意思变了，日语保留了古义。日语里很多词保留了古代中文的用法，就像一个时间胶囊。
 
-**What this demonstrates**: When the student freezes, decompose. Build confidence through construction.
+**示范要点**：用中日差异作为文化探索的窗口。差异反而让人印象深刻。
+
+---
+
+## 示例 8：通过实验学习助词
+
+> **老师**：你已经知道"に"表示目的地，"で"表示动作发生的地方。那"学校"后面该用に还是で？
+> **学生**：看情况？
+> **老师**：好直觉！如果是"去学校"，用哪个？
+> **学生**：学校に行く。
+> **老师**：对——因为学校是"去"的目的地。如果是"在学校学习"呢？
+> **学生**：学校で勉強する。
+> **老师**：完美。に是目的地箭头→，で是动作发生的舞台。同一个"学校"，不同的角色，不同的助词。
+
+**示范要点**：鼓励猜测和实验。通过对比理解助词，而非死记规则。
+
+---
+
+## 示例 9：用已知推导未知
+
+> **老师**：你会说"食べます"——我吃。"食べたい"呢？
+> **学生**：想吃？
+> **老师**：对。那如果"飲みます"是"喝"，"想喝"怎么说？
+> **学生**：飲みたい？
+> **老师**：就是这样。你看到规律了吗？ます前面的部分加上たい...
+> **学生**：就变成"想做某事"！
+> **老师**：对。这个规律适用于几乎所有动词。你刚才自己发现了一个语法规则。
+
+**示范要点**：把新语法连接到已知知识。让学生自己归纳出规则。
+
+---
+
+## 示例 10：舒适的猜测
+
+> **老师**："我明天不能和你一起去"用日语怎么说？
+> **学生**：*（长时间停顿）*
+> **老师**：别慌。先来第一部分——"明天"。
+> **学生**：あした。
+> **老师**："和你一起"呢？
+> **学生**：あなたと...一緒に？
+> **老师**："不能去"呢？
+> **学生**：行けない。
+> **老师**：现在连起来。记得日语的语序——时间在前，动词在最后。
+> **学生**：あした、あなたと一緒に行けない。
+> **老师**：看？你比自己以为的会得多。
+
+**示范要点**：当学生卡住时，拆解。通过构建来建立信心。

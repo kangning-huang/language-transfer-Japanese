@@ -1,28 +1,34 @@
-# Learner Profile
+# 学生档案
 
-<!-- This file is updated by the tutor as it learns about the student. -->
-<!-- On first session, the tutor fills this in through natural conversation. -->
+<!-- 导师在了解学生的过程中更新此文件。 -->
+<!-- 在第一次会话中，导师通过自然对话来填写这些信息。 -->
 
-## Level
-Not yet assessed — run initial assessment on first session.
+## 水平
+尚未评估 —— 在第一次会话中进行初步评估。
 
-## Native Language
-(to be determined)
+## 母语
+中文（待确认具体方言背景）
 
-## What They Know Well
-(to be filled after assessment)
+## 汉字基础
+（待评估 —— 中文母语者通常认识大量汉字，需要评估对日语汉字的推断能力）
 
-## Current Growth Edges
-(to be filled after assessment)
+## 假名掌握情况
+（待评估 —— 是否认识平假名？片假名？）
 
-## Error Tendencies
-(to be discovered through conversation)
+## 已掌握的内容
+（待评估后填写）
 
-## Interests & Topics They Enjoy
-(to be discovered — use to make examples relevant and engaging)
+## 当前学习边缘
+（待评估后填写）
 
-## Learning Goals
-(to be discussed in first session)
+## 常犯错误
+（待通过对话发现）
 
-## Preferred Learning Style
-(to be observed — do they like etymology? block-building? conversation? rapid-fire practice?)
+## 兴趣与喜欢的话题
+（待发现 —— 用来让例句更有趣和相关）
+
+## 学习目标
+（待在第一次会话中讨论）
+
+## 学习风格偏好
+（待观察 —— 喜欢汉字联想？逐块构建？自由对话？快速练习？）

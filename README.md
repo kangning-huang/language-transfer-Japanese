@@ -86,12 +86,7 @@ These track the individual student's progress. Start empty, grow over time.
 
 ### How They Relate
 
-```mermaid
-flowchart LR
-    A["🧠 Static Files\n36 files\nThe tutor's brain\nSame for every student"] -- reads --> B
-    A -- writes --> B
-    B["📝 Dynamic Files\nLEARNER.md + MEMORY.md + session logs\nThe student's journey\nUnique to each learner"]
-```
+![Architecture: Static tutor brain reads and writes to dynamic learner state](assets/architecture.png)
 
 Clone the repo → get the full tutor brain but a blank learner profile. The tutor assesses you fresh and builds your unique learning path.
 
